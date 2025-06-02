@@ -1,0 +1,238 @@
+[
+  {
+    "image": "./img/lebron-james.jpg",
+    "answer": "LeBron James",
+    "options": ["LeBron James", "Stephen Curry", "Luka Dončić", "Nikola Jokić"]
+  },
+  {
+    "image": "./img/curry.jpg",
+    "answer": "Stephen Curry",
+    "options": ["Kobe Bryant", "Stephen Curry", "Ja Morant", "Kevin Durant"]
+  },
+  {
+    "image": "./img/jokic.webp",
+    "options": ["Joel Embiid", "Nikola Jokic", "Domantas Sabonis", "Rudy Gobert"],
+    "answer": "Nikola Jokic"
+  },
+  {
+    "image": "./img/Shai_Gilgeous-Alexander.jpg",
+    "options": ["Ja Morant", "Devin Booker", "Tyrese Haliburton", "Shai Gilgeous-Alexander"],
+    "answer": "Shai Gilgeous-Alexander"
+  },
+  {
+    "image": "./img/giannis.avif",
+    "options": ["LeBron James", "Kevin Durant", "Giannis Antetokounmpo", "Anthony Davis"],
+    "answer": "Giannis Antetokounmpo"
+  },
+  {
+    "image": "./img/tatum.jpeg",
+    "options": ["Jaylen Brown", "Donovan Mitchell", "Jayson Tatum", "Paul George"],
+    "answer": "Jayson Tatum"
+  },
+  {
+    "image": "./img/klay.webp",
+    "options": ["Klay Thompson", "Damian Lillard", "Stephen Curry", "Trae Young"],
+    "answer": "Klay Thompson"
+  },
+  {
+    "image": "./img/ant.jpg",
+    "options": ["Karl-Anthony Towns", "Anthony Edwards", "LaMelo Ball", "Scottie Barnes"],
+    "answer": "Anthony Edwards"
+  },
+  {
+    "image": "./img/jimmy_Butler.webp",
+    "options": ["Kevin Durant", "Kawhi Leonard", "LeBron James", "Jimmy Butler"],
+    "answer": "Jimmy Butler"
+  },
+  {
+    "image": "./img/wemby.avif",
+    "options": ["Chet Holmgren", "Paolo Banchero", "Victor Wembanyama", "Jabari Smith Jr."],
+    "answer": "Victor Wembanyama"
+  },
+  {
+    "image": "./img/KD.jpg",
+    "options": ["Paul George", "Kawhi Leonard", "Kevin Durant", "Devin Booker"],
+    "answer": "Kevin Durant"
+  },
+  {
+    "image": "./img/embiid.jpg",
+    "options": ["Nikola Jokic", "Joel Embiid", "Bam Adebayo", "Anthony Davis"],
+    "answer": "Joel Embiid"
+  },
+  {
+    "image": "./img/luka-doncic.jpg",
+    "options": ["Trae Young", "Luka Doncic", "Donovan Mitchell", "Darius Garland"],
+    "answer": "Luka Doncic"
+  },
+  {
+    "image": "./img/booker.jpg",
+    "options": ["Bradley Beal", "Devin Booker", "Jaylen Brown", "Klay Thompson"],
+    "answer": "Devin Booker"
+  },
+  {
+    "image": "./img/domantas-sabonis.webp",
+    "options": ["Nikola Jokic", "Domantas Sabonis", "Kristaps Porzingis", "Deandre Ayton"],
+    "answer": "Domantas Sabonis"
+  },
+  {
+    "image": "./img/tyrese_hali.avif",
+    "options": ["Darius Garland", "Jamal Murray", "Tyrese Haliburton", "Fred VanVleet"],
+    "answer": "Tyrese Haliburton"
+  },
+  {
+    "image": "./img/zion.webp",
+    "options": ["Brandon Ingram", "Zion Williamson", "Jaxson Hayes", "Herb Jones"],
+    "answer": "Zion Williamson"
+  },
+  {
+    "image": "/img/deandre hunter.jpg",
+    "answer": "De'Andre Hunter",
+    "options": ["De'Andre Hunter", "Trae Young", "Clint Capela", "Bogdan Bogdanović"]
+  },
+  {
+    "image": "/img/Jaylen-Brown.webp",
+    "answer": "Jaylen Brown",
+    "options": ["Jayson Tatum", "Jaylen Brown", "Kristaps Porzingis", "Derrick White"]
+  },
+  {
+    "image": "/img/camThomas.webp",
+    "answer": "Cam Thomas",
+    "options": ["Cam Thomas", "Mikal Bridges", "Dennis Schröder", "Day'Ron Sharpe"]
+  },
+  {
+    "image": "./img/brandonMiller.webp",
+    "answer": "Brandon Miller",
+    "options": ["Brandon Miller", "LaMelo Ball", "Mark Williams", "Miles Bridges"]
+  },
+  {
+    "image": "./img/zach-lavine.jpg",
+    "answer": "Zach LaVine",
+    "options": ["Zach LaVine", "DeMar DeRozan", "Coby White", "Nikola Vučević"]
+  },
+  {
+    "image": "./img/evanMobley.jpg",
+    "answer": "Evan Mobley",
+    "options": ["Evan Mobley", "Darius Garland", "Jarrett Allen", "Max Strus"]
+  },
+  {
+    "image": "./img/cade-cunningham.jpeg",
+    "answer": "Cade Cunningham",
+    "options": ["Cade Cunningham", "Jaden Ivey", "Ausar Thompson", "Isaiah Stewart"]
+  },
+  {
+    "image": "./img/siakam.jpg",
+    "answer": "Pascal Siakam",
+    "options": ["Pascal Siakam", "Myles Turner", "Aaron Nesmith", "Andrew Nembhard"]
+  },
+  {
+    "image": "./img/bam-adebayo.jpg",
+    "answer": "Bam Adebayo",
+    "options": ["Bam Adebayo", "Jimmy Butler", "Tyler Herro", "Terry Rozier"]
+  },
+  {
+    "image": "./img/khris-middleton.jpg",
+    "answer": "Khris Middleton",
+    "options": ["Khris Middleton", "Giannis Antetokounmpo", "Brook Lopez", "Damian Lillard"]
+  },
+  {
+    "image": "./img/mikalBridges.jpg",
+    "answer": "Mikal Bridges",
+    "options": ["Mikal Bridges", "Jalen Brunson", "Donte DiVincenzo", "Josh Hart"]
+  },
+  {
+    "image": "./img/franzWagner.jpg",
+    "answer": "Franz Wagner",
+    "options": ["Franz Wagner", "Paolo Banchero", "Cole Anthony", "Wendell Carter Jr."]
+  },
+  {
+    "image": "./img/tyreseMaxey.webp",
+    "answer": "Tyrese Maxey",
+    "options": ["Tyrese Maxey", "Joel Embiid", "Kelly Oubre Jr.", "Nicolas Batum"]
+  },
+  {
+    "image": "./img/kyleKuzma.avif",
+    "answer": "Kyle Kuzma",
+    "options": ["Kyle Kuzma", "Jordan Poole", "Deni Avdija", "Tyus Jones"]
+  },
+  {
+    "image": "./img/MPJ.webp",
+    "answer": "Michael Porter Jr.",
+    "options": ["Michael Porter Jr.", "Jamal Murray", "Aaron Gordon", "Kentavious Caldwell-Pope"]
+  },
+  {
+    "image": "./img/dray.webp",
+    "answer": "Draymond Green",
+    "options": ["Draymond Green", "Stephen Curry", "Klay Thompson", "Andrew Wiggins"]
+  },
+  {
+    "image": "./img/sengun.webp",
+    "answer": "Alperen Şengün",
+    "options": ["Alperen Şengün", "Jalen Green", "Amen Thompson", "Dillon Brooks"]
+  },
+  {
+    "image": "./img/harden.webp",
+    "answer": "James Harden",
+    "options": ["James Harden", "Kawhi Leonard", "Paul George", "Russell Westbrook"]
+  },
+  {
+    "image": "./img/knecht.webp",
+    "answer": "Dalton Knecht",
+    "options": ["Dalton Knecht", "Austin Reaves", "D'Angelo Russell", "Jarred Vanderbilt"]
+  },
+  {
+    "image": "./img/edey.webp",
+    "answer": "Zach Edey",
+    "options": ["Zach Edey", "Ja Morant", "Jaren Jackson Jr.", "Desmond Bane"]
+  },
+  {
+    "image": "./img/gobert.webp",
+    "answer": "Rudy Gobert",
+    "options": ["Rudy Gobert", "Anthony Edwards", "Karl-Anthony Towns", "Mike Conley"]
+  },
+  {
+    "image": "./img/jdub.webp",
+    "answer": "Jalen Williams",
+    "options": ["Jalen Williams", "Shai Gilgeous-Alexander", "Chet Holmgren", "Josh Giddey"]
+  },
+  {
+    "image": "./img/scoot.webp",
+    "answer": "Scoot Henderson",
+    "options": ["Scoot Henderson", "Anfernee Simons", "Jerami Grant", "Deandre Ayton"]
+  },
+  {
+    "image": "./img/swipa.webp",
+    "answer": "De'Aaron Fox",
+    "options": ["De'Aaron Fox", "Domantas Sabonis", "Keegan Murray", "Malik Monk"]
+  },
+  {
+    "image": "./img/castle.avif",
+    "answer": "Stephon Castle",
+    "options": ["Stephon Castle", "Victor Wembanyama", "Jeremy Sochan", "Devin Vassell"]
+  },
+  {
+    "image": "./img/keyonte.jpg",
+    "answer": "Keyonte George",
+    "options": ["Keyonte George", "Lauri Markkanen", "Jordan Clarkson", "Walker Kessler"]
+  },
+  {
+  "image": "./img/trey-murphy.webp",
+  "answer": "Trey Murphy III",
+  "options": ["Trey Murphy III", "Herb Jones", "CJ McCollum", "Brandon Ingram"]
+  },
+  {
+  "image": "./img/jabariSmithjr.webp",
+  "answer": "Jabari Smith Jr.",
+  "options": ["Jabari Smith Jr.", "Alperen Şengün", "Jalen Green", "Fred VanVleet"]
+  },
+  {
+  "image": "./img/bojan.webp",
+  "answer": "Bojan Bogdanović",
+  "options": ["Bojan Bogdanović", "Isaiah Stewart", "Jaden Ivey", "James Wiseman"]
+  },
+  {
+  "image": "./img/huerter.jpg",
+  "answer": "Kevin Huerter",
+  "options": ["Kevin Huerter", "Davion Mitchell", "Malik Monk", "Harrison Barnes"]
+  }
+]
+

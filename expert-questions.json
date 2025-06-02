@@ -1,0 +1,142 @@
+[
+  {
+    "id": "exp1",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/harden.jpg",
+    "options": ["James Harden", "Russell Westbrook", "Chris Paul", "Kyrie Irving"],
+    "answer": "James Harden"
+  },
+  {
+    "id": "exp2",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/gianniskid.jpg", 
+    "options": ["Giannis Antetokounmpo", "Joel Embiid", "Nikola Jokic", "Luka Doncic"],
+    "answer": "Giannis Antetokounmpo"
+  },
+  {
+    "id": "exp3",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/trae.jpg", 
+    "options": ["Stephen Curry", "Damian Lillard", "Kyrie Irving", "Trae Young"],
+    "answer": "Trae Young"
+  },
+  {
+    "id": "exp4",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/kd.webp", 
+    "options": ["Kevin Durant", "Brandon Ingram", "Jayson Tatum", "Paul George"],
+    "answer": "Kevin Durant"
+  },
+  {
+    "id": "exp5",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/klaw.jpg", 
+    "options": ["Kawhi Leonard", "Jimmy Butler", "OG Anunoby", "Draymond Green"],
+    "answer": "Kawhi Leonard"
+  },
+  {
+    "id": "exp6",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/jokic.jpg", 
+    "options": ["Nikola Jokic", "Domantas Sabonis", "Joel Embiid", "Alperen Sengun"],
+    "answer": "Nikola Jokic"
+  },
+  {
+    "id": "exp7",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/luka.jpg", 
+    "options": ["Luka Doncic", "Devin Booker", "Donovan Mitchell", "Ja Morant"],
+    "answer": "Luka Doncic"
+  },
+  {
+    "id": "exp8",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/lebron.jpg", 
+    "options": ["LeBron James", "Anthony Davis", "Dwyane Wade", "Chris Bosh"],
+    "answer": "LeBron James"
+  },
+  {
+    "id": "exp9",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/ad.jpg", 
+    "options": ["Anthony Davis", "Kevin Garnett", "DeMarcus Cousins", "Draymond Green"],
+    "answer": "Anthony Davis"
+  },
+  {
+    "id": "exp10",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/tatum.jpg", 
+    "options": ["Jayson Tatum", "Jaylen Brown", "Marcus Smart", "Grant Williams"],
+    "answer": "Jayson Tatum"
+  },
+  {
+    "id": "exp11",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/curry.jpg",
+    "options": ["Stephen Curry", "Seth Curry", "D'Angelo Russell", "Mike Conley"],
+    "answer": "Stephen Curry"
+  },
+  {
+    "id": "exp12",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/troel.jpg",
+    "options": ["Joel Embiid", "Bam Adebayo", "Pascal Siakam", "Deandre Ayton"],
+    "answer": "Joel Embiid"
+  },
+  {
+    "id": "exp13",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/dametime.jpg",
+    "options": ["Damian Lillard", "Kyrie Irving", "Donovan Mitchell", "Ja Morant"],
+    "answer": "Damian Lillard"
+  },
+  {
+    "id": "exp14",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/sga.jpg",
+    "options": ["Shai Gilgeous-Alexander", "De'Aaron Fox", "Jamal Murray", "Bradley Beal"],
+    "answer": "Shai Gilgeous-Alexander"
+  },
+  {
+    "id": "exp15",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/jimmy-butler.jpg",
+    "options": ["Jimmy Butler", "Jaylen Brown", "DeMar DeRozan", "Fred VanVleet"],
+    "answer": "Jimmy Butler"
+  },
+  {
+    "id": "exp16",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/lukason.jpg",
+    "options": ["Devin Booker", "Bradley Beal", "Klay Thompson", "Zach LaVine"],
+    "answer": "Devin Booker"
+  },
+  {
+    "id": "exp17",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/donovan-mitchell-spider.jpg",
+    "options": ["Donovan Mitchell", "Tyrese Maxey", "Jalen Brunson", "Darius Garland"],
+    "answer": "Donovan Mitchell"
+  },
+  {
+    "id": "exp18",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/kat.jpg",
+    "options": ["Karl-Anthony Towns", "Nikola Vucevic", "Kristaps Porzingis", "Domantas Sabonis"],
+    "answer": "Karl-Anthony Towns"
+  },
+  {
+    "id": "exp19",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/scotty.jpg",
+    "options": ["Pascal Siakam", "Scottie Barnes", "OG Anunoby", "Jerami Grant"],
+    "answer": "Scottie Barnes"
+  },
+  {
+    "id": "exp20",
+    "question": "Who is this NBA player?",
+    "image": "./img/expert/wthali.jpg",
+    "options": ["Tyrese Haliburton", "Darius Garland", "LaMelo Ball", "Trae Young"],
+    "answer": "Tyrese Haliburton"
+  }
+]

@@ -1,0 +1,350 @@
+/* --- General Styles --- */
+body {
+    margin: 0;
+    font-family: 'Squada One', cursive; /* Using the imported font */
+    background-color: #1a1a2e; /* Dark blue/purple background */
+    color: #e0e0e0; /* Light gray text */
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out; /* Smooth background transitions */
+    overflow: hidden; /* Prevent scrollbars from background images */
+}
+
+/* --- Panel Styles --- */
+.panel {
+    background-color: rgba(26, 26, 46, 0.9); /* Semi-transparent background for panels */
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    width: 90%; /* Responsive width */
+    position: relative; /* For z-index if needed */
+    z-index: 1; /* Ensure panels are above background */
+    border: 2px solid #64ffda; /* Aqua border */
+}
+
+.panel h1, .panel h2 {
+    color: #64ffda; /* Aqua color for headings */
+    margin-bottom: 25px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.panel p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #c0c0c0; /* Slightly darker gray for paragraphs */
+}
+
+/* --- NEW: Home Screen Specific Styles (no panel look) --- */
+#homeScreen {
+    display: flex; /* Use flexbox to stack items vertically */
+    flex-direction: column;
+    align-items: center; /* Center items horizontally within homeScreen */
+    justify-content: center; /* Center items vertically if needed, but body handles primary centering */
+    width: 100%; /* Take full width to allow internal centering */
+    max-width: 600px; /* Limit overall width for aesthetics */
+    padding: 20px; /* Some padding around content */
+}
+
+#homeScreen h1 {
+    font-size: 5em; /* MUCH Larger font for "NBA Challenge" */
+    color: #64ffda; /* Aqua color */
+    margin-bottom: 40px; /* More space below title */
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Stronger shadow */
+    line-height: 1; /* Tighter line height */
+}
+
+#homeScreen p { /* For userInfoDisplay and pointsDisplay */
+    font-size: 1.4em;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Buttons (General styles remain, but apply to home screen buttons too) --- */
+button {
+    background-color: #0f3460; /* Darker blue */
+    color: #64ffda; /* Aqua text */
+    border: 2px solid #64ffda;
+    padding: 12px 25px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    width: calc(100% - 10px); /* Adjust width to fit */
+    max-width: 250px; /* Max width for buttons */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #64ffda; /* Aqua background on hover */
+    color: #0f3460; /* Darker blue text on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-btn {
+    background-color: #3e2c6e; /* A different shade for back buttons */
+    border-color: #8c7aa9;
+    color: #e0e0e0;
+    margin-top: 20px;
+}
+
+.back-btn:hover {
+    background-color: #8c7aa9;
+    color: #3e2c6e;
+}
+
+/* --- Input Fields --- */
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 30px); /* Full width minus padding */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #0f3460;
+    border-radius: 5px;
+    background-color: #1a1a2e; /* Matches body background */
+    color: #e0e0e0;
+    font-size: 1em;
+    outline: none; /* Remove outline on focus */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #64ffda; /* Aqua border on focus */
+    box-shadow: 0 0 5px rgba(100, 255, 218, 0.5);
+}
+
+/* --- Quiz Specific Styles --- */
+#quizContainer { 
+    padding: 25px 20px; 
+    max-width: 400px; 
+}
+
+#quizContainer h2 {
+    font-size: 2em; 
+    margin-bottom: 20px;
+}
+
+#playerImage {
+    max-width: 90%;
+    height: 200px; /* Fixed height for image consistency */
+    object-fit: contain; 
+    margin-top: 15px; 
+    margin-bottom: 25px; 
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+#options {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 8px; 
+    margin-top: 15px; 
+}
+
+.option-btn {
+    background-color: #0f3460;
+    color: #e0e0e0;
+    border: 2px solid #0f3460;
+    width: calc(50% - 12px); 
+    max-width: 180px; 
+    padding: 12px; 
+    font-size: 1em; 
+}
+
+.option-btn:hover {
+    background-color: #16213e; 
+    border-color: #64ffda;
+}
+
+.option-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#feedback {
+    margin-top: 20px; 
+    font-size: 1.3em; 
+    font-weight: bold;
+}
+
+/* --- Leaderboard Specific Styles --- */
+#leaderboardContainer { 
+    max-width: 500px; 
+    padding: 40px 30px;
+}
+#leaderboardList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    max-height: 300px; 
+    overflow-y: auto;
+    border: 1px solid #0f3460;
+    border-radius: 8px;
+    background-color: rgba(15, 52, 96, 0.5); 
+}
+
+#leaderboardList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(100, 255, 218, 0.2);
+    font-size: 1.1em;
+    color: #c0c0c0;
+}
+
+#leaderboardList li:last-child {
+    border-bottom: none;
+}
+
+#leaderboardList li:nth-child(odd) {
+    background-color: rgba(15, 52, 96, 0.2);
+}
+
+.rank-1 {
+    color: #ffd700; 
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.rank-2 {
+    color: #c0c0c0; 
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.rank-3 {
+    color: #cd7f32; 
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+/* --- NEW: Trophy Room Specific Styles --- */
+#trophyRoomPanel {
+    max-width: 700px; /* Wider to accommodate multiple cards */
+    padding: 30px;
+    background-color: rgba(26, 26, 46, 0.95); /* Slightly less transparent */
+}
+
+#trophyCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+    margin-top: 20px;
+    padding-bottom: 20px;
+    max-height: 400px; /* Make scrollable if too many cards */
+    overflow-y: auto;
+    justify-content: center; /* Center cards horizontally */
+}
+
+.trophy-card {
+    background-color: #0f3460; /* Dark blue background for cards */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    border: 2px solid #64ffda; /* Aqua border */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Push unlock button to bottom */
+    align-items: center;
+}
+
+.trophy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.trophy-card img {
+    max-width: 100%;
+    height: 120px; /* Fixed height for image consistency */
+    object-fit: cover; /* Cover the area, potentially cropping */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #64ffda;
+    filter: grayscale(100%); /* Default to grayscale for locked cards */
+    transition: filter 0.3s ease;
+}
+
+.trophy-card h3 {
+    color: #64ffda;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.trophy-card p {
+    font-size: 0.9em;
+    color: #c0c0c0;
+    flex-grow: 1; /* Allow description to take up space */
+    margin-bottom: 10px;
+}
+
+.trophy-card .unlock-cost {
+    font-size: 1.1em;
+    color: #FFD700; /* Gold color for cost */
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.trophy-card button {
+    background-color: #64ffda; /* Aqua for unlock button */
+    color: #0f3460;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1em;
+    max-width: 150px; /* Adjust button width */
+    margin: 0 auto; /* Center button */
+}
+
+.trophy-card button:hover {
+    background-color: #0f3460;
+    color: #64ffda;
+    border: 1px solid #64ffda;
+}
+
+/* Styles for UNLOCKED cards */
+.trophy-card.unlocked img {
+    filter: grayscale(0%); /* Full color for unlocked cards */
+}
+
+.trophy-card.unlocked .unlock-cost {
+    display: none; /* Hide cost */
+}
+
+.trophy-card.unlocked button {
+    display: none; /* Hide unlock button */
+}
+
+.trophy-card.unlocked p {
+    font-style: normal;
+    color: #e0e0e0;
+}
+
+.trophy-card.locked p {
+    font-style: italic;
+    font-size: 0.85em; /* Smaller for locked state */
+    color: #909090;
+}
+
+/* --- Utility Classes --- */
+.hidden {
+    display: none !important;
+}
+
+.error-message {
+    color: #ff6347; 
+    font-size: 0.9em;
+    margin-top: 10px;
+}

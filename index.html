@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Trivia Challenge</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="homeScreen">
+        <h1>NBA Challenge</h1> 
+        <p id="userInfoDisplay" class="hidden"></p>
+        <p id="pointsDisplay" class="hidden">Points: <span id="userPoints">0</span></p>
+        <button id="startNormalQuizBtn">Start Quiz</button>
+        <button id="startExpertQuizBtn">Start Expert Quiz</button>
+        <button id="viewLeaderboardBtn">Leaderboard</button>
+        <button id="viewTrophyRoomBtn" class="hidden">Trophy Room</button> <button id="loginRegisterBtn">Login / Register</button>
+        <button id="logoutBtn" class="hidden">Logout</button>
+    </div>
+
+    <div id="authPanel" class="panel hidden">
+        <h2>Login / Register</h2>
+        <input type="email" id="authEmail" placeholder="Email">
+        <input type="password" id="authPassword" placeholder="Password">
+        <button id="loginUserBtn">Login</button>
+        <button id="registerUserBtn">Register</button>
+        <p id="authError" class="error-message"></p>
+        <button id="backToHomeFromAuthBtn" class="back-btn">Back to Home</button>
+    </div>
+
+    <div id="quizContainer" class="panel hidden">
+        <h2 id="question"></h2>
+        <img id="playerImage" src="" alt="NBA Player">
+        <div id="options">
+            </div>
+        <p id="feedback"></p>
+    </div>
+
+    <div id="resultContainer" class="panel hidden">
+        <h2>Quiz Complete!</h2>
+        <p id="finalScore"></p>
+        <button id="restartBtn">Play Again</button>
+        <button id="showLeaderboardBtn">View Leaderboard</button>
+        <button id="returnToHomeFromResultsBtn" class="back-btn">Back to Home</button>
+    </div>
+
+    <div id="leaderboardContainer" class="panel hidden">
+        <h2>Leaderboard</h2>
+        <ol id="leaderboardList">
+            </ol>
+        <button id="backToHomeFromLeaderboardBtn" class="back-btn">Back to Home</button>
+    </div>
+
+    <div id="trophyRoomPanel" class="panel hidden">
+        <h2>Trophy Room</h2>
+        <div id="trophyCardsContainer">
+            </div>
+        <button id="backToHomeFromTrophyRoomBtn" class="back-btn">Back to Home</button>
+    </div>
+    
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+    <script src="firebase-config.js"></script>
+
+    <div id="overlay" class="hidden"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
